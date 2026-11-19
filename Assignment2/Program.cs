@@ -28,21 +28,21 @@ namespace Assignment2
             #region Question2
             /*Using the Book class above, print the result of calling ToString(), Equals() (compare book
             with itself), GetHashCode(), and GetType() on book.*/
-            Book book = new Book();
-            book.Title = "The Great Gatsby";
-            book.Pages = 180;
-            Console.WriteLine($"ToString(): {book.ToString()}");
-             Console.WriteLine($"Equals(): {book.Equals(book)}");
-              Console.WriteLine($"GetHashCode(): {book.GetHashCode()}");
-              Console.WriteLine($"GetType(): {book.GetType()}");
+            //  Book book = new Book();
+            //    book.Title = "The Great Gatsby";
+            //  book.Pages = 180;
+            // Console.WriteLine($"ToString(): {book.ToString()}");
+            // Console.WriteLine($"Equals(): {book.Equals(book)}");
+            //  Console.WriteLine($"GetHashCode(): {book.GetHashCode()}");
+            //  Console.WriteLine($"GetType(): {book.GetType()}");
 
 
             #endregion
-            #region Question3
+            #region  Question3
             /*
              * Look at the line below. Is it a compile-time error, a runtime error, or a logical error? Fix it.
             int pages = "464";*/
-         //   a compile-time error
+            //   a compile-time error
             #endregion
         }
     }
