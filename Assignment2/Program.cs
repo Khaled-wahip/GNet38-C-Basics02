@@ -42,7 +42,7 @@ namespace Assignment2
             /*
              * Look at the line below. Is it a compile-time error, a runtime error, or a logical error? Fix it.
             int pages = "464";*/
-            //a compile-time error
+            a compile-time error
             #endregion
         }
     }
