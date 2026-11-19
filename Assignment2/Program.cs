@@ -28,10 +28,13 @@ namespace Assignment2
             #region Question2
             /*Using the Book class above, print the result of calling ToString(), Equals() (compare book
             with itself), GetHashCode(), and GetType() on book.*/
-            /* Console.WriteLine($"ToString(): {book.ToString()}");
+            Book book = new Book();
+            book.Title = "The Great Gatsby";
+            book.Pages = 180;
+            Console.WriteLine($"ToString(): {book.ToString()}");
               Console.WriteLine($"Equals(): {book.Equals(book)}");
               Console.WriteLine($"GetHashCode(): {book.GetHashCode()}");
-              Console.WriteLine($"GetType(): {book.GetType()}");*/
+              Console.WriteLine($"GetType(): {book.GetType()}");
 
 
             #endregion
